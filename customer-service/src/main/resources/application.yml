@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: customer-service
+  datasource:
+    url: jdbc:postgresql://localhost:5432/open_feign_db
+    username: postgres
+    password: 092367169
+  jpa:
+    hibernate:
+      ddl-auto: update
+server:
+  port: 8081
